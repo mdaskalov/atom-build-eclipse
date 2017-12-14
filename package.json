@@ -1,11 +1,11 @@
 {
   "name": "build-eclipse",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Builds using Eclipse C/C++ Project build settings",
   "repository": "https://github.com/mdaskalov/atom-build-eclipse",
   "license": "MIT",
   "engines": {
-    "atom": "^1.0.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "providedServices": {
     "builder": {
@@ -23,10 +23,15 @@
     "fs-extra": "^0.23.1",
     "temp": "^0.8.3"
   },
-  "keywords": ["build", "compile", "eclipse", "productivity", "gnu"],
+  "keywords": [
+    "build",
+    "compile",
+    "eclipse",
+    "productivity",
+    "gnu"
+  ],
   "main": "lib/eclipse.js",
   "dependencies": {
-    "lodash": "^4.17.4",
     "xmldom": "^0.1.27",
     "xpath": "0.0.27"
   }
