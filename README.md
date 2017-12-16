@@ -1,12 +1,13 @@
-# Eclipse C/C++ Project Build (via atom-build)
+# Eclipse C/C++ Project Build
 
 [![apm](https://img.shields.io/apm/l/build-eclipse.svg)](https://atom.io/packages/build-eclipse)
 [![apm](https://img.shields.io/apm/v/build-eclipse.svg)](https://atom.io/packages/build-eclipse)
 [![apm](https://img.shields.io/apm/dm/build-eclipse.svg)](https://atom.io/packages/build-eclipse)
 [![Build Status](https://travis-ci.org/mdaskalov/atom-build-eclipse.svg?branch=master)](https://travis-ci.org/mdaskalov/atom-build-eclipse)
 
-Uses the [atom-build](https://github.com/noseglid/atom-build) package to execute
-the C/C++ build command configured in the eclipse project file (.cproject) to build in the `Atom` editor.
+Execute the C/C++ build command configured in the eclipse project file (.cproject) to build the project. The file should be located in the project root directory or the plugin will not be activated.
+
+If used on the latest MacBook Pro the plugin adds two buttons on the TouchBar to build or clean the project.
 
 This package requires [atom-build](https://github.com/noseglid/atom-build) to be installed.
 
