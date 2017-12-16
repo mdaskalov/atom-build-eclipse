@@ -1,6 +1,5 @@
 # Eclipse C/C++ Project Build
 
-[![apm](https://img.shields.io/apm/l/build-eclipse.svg)](https://atom.io/packages/build-eclipse)
 [![apm](https://img.shields.io/apm/v/build-eclipse.svg)](https://atom.io/packages/build-eclipse)
 [![apm](https://img.shields.io/apm/dm/build-eclipse.svg)](https://atom.io/packages/build-eclipse)
 [![Build Status](https://travis-ci.org/mdaskalov/atom-build-eclipse.svg?branch=master)](https://travis-ci.org/mdaskalov/atom-build-eclipse)
@@ -19,20 +18,12 @@ Install `build-eclipse` from Atom's [Package Manager](http://flight-manual.atom.
 
 ## Usage
 
-This package will add a shortcut to clean your project. Summary of all used shortcuts:
+This package will add a shortcut to clean your project. Use following shortcuts:
 
-**Choose target to build**
-
-<kbd>Cmd</kbd> <kbd>Alt</kbd> <kbd>T</kbd> / <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>T</kbd> / <kbd>F7</kbd>
-
-**Toggle build panel**
-
-<kbd>Cmd</kbd> <kbd>Alt</kbd> <kbd>V</kbd> / <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>V</kbd> / <kbd>F8</kbd>
-
-**Start build for the selected target**
+**Build the project**
 
 <kbd>Cmd</kbd> <kbd>Alt</kbd> <kbd>B</kbd> / <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>B</kbd> / <kbd>F9</kbd>
 
-**Start clean build**
+**Clean the project**
 
 <kbd>Cmd</kbd> <kbd>Alt</kbd> <kbd>C</kbd> / <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>C</kbd> / <kbd>F10</kbd>
