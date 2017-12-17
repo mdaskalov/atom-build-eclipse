@@ -1,0 +1,14 @@
+{
+  "menu": [ {
+    "label": "Packages",
+    "submenu": [ {
+        "label": "Build",
+        "submenu": [ {
+          "label": "Clean project",
+          "command": "build:clean"
+        } ]
+      } ]
+  } ],
+
+  "context-menu": {}
+}
