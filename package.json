@@ -17,8 +17,8 @@
   },
   "devDependencies": {
     "atom-build-spec-helpers": "^0.4.0",
-    "babel-eslint": "^4.1.8",
-    "eslint": "^1.10.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
     "eslint-config-atom-build": "^2.0.0",
     "fs-extra": "^0.23.1",
     "temp": "^0.8.3"
